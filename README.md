@@ -104,7 +104,7 @@ This project is a Django-based web application that provides a comprehensive sit
 
 ## Usage
 
-1. Access the admin panel at `http://localhost:8000/admin/` using the superuser credentials.
+1. Access the admin panel at `http://localhost:8000/administrator/` using the superuser credentials.
 2. Use the site panel for various management tasks.
 3. Implement front-end applications to interact with the API endpoints.
 
