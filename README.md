@@ -112,10 +112,16 @@ This project is a Django-based web application that provides a comprehensive sit
 
 (List and describe your main API endpoints here)
 
-For example:
-- **POST** `/api/signup/` - Register a new user
-- **POST** `/api/login/` - User login
-- **GET** `/api/users/` - List all users
+For example(User):
+- **POST** `/api/auth/register/` - Register a new user
+- **POST** `/api/auth/login/` - User login
+- **POST** `/api/auth/logout/` - User logout
+  
+For example(Admin):
+- **IN Browser** `/administrator` - To access the admin panel
+
+For example(swagger):
+- **IN Browser** `/swagger` - To access the swagger dashboard
 
 ## Configuration
 
