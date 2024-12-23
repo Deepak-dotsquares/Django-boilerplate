@@ -4,6 +4,7 @@ from rest_framework import status
 from drf_yasg.utils import swagger_auto_schema
 from sitepanel.serializers import UpdateUserSerializer
 from commonConf.response_handler import ResponseHandler
+from commonConf.messages import *
 
 class ManageProfile(aBaseViewset):
     """
