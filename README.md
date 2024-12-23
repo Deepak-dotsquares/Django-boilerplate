@@ -69,7 +69,7 @@ This project is a Django-based web application that provides a comprehensive sit
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Deepak-dotsquares/Django-boilerplate.git
    ```
 
 2. Create and activate a virtual environment:
@@ -120,8 +120,6 @@ For example(User):
 For example(Admin):
 - **IN Browser** `/administrator` - To access the admin panel
 
-For example(swagger):
-- **IN Browser** `/swagger` - To access the swagger dashboard
 
 ## Configuration
 
@@ -154,17 +152,6 @@ INVALID_CREDENTIALS = "Invalid username or password."
 
 The response handler then uses these centralized messages to provide consistent feedback to users throughout the application.
 
-## Testing
-
-Run the test suite using:
-```bash
-python manage.py test
-```
-
-## Deployment
-
-(Add instructions for deploying your Django application to production environments, such as setting up a production database, configuring settings for production, and deploying to platforms like Heroku or AWS.)
-
 ## Contributing
 
 1. Fork the repository
@@ -173,9 +160,6 @@ python manage.py test
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-(Specify the license under which this project is released)
 
 ## Contact
 
@@ -190,5 +174,3 @@ python manage.py test
 - django-filter
 - drf-yasg (for Swagger API Docs)
 ```
-
-This version includes the Swagger documentation setup and the common message approach that you wanted to highlight. Let me know if you'd like to add or modify anything else!
