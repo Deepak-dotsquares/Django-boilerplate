@@ -160,11 +160,6 @@ The response handler then uses these centralized messages to provide consistent 
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-## Contact
-
-(Add your contact information or ways for users to reach out with questions or feedback)
-
 ## Acknowledgements
 
 - Django
